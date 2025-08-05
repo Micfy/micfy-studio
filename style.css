@@ -222,10 +222,15 @@ footer {
     font-size: 1rem;
   }
 
+  .navbar {
+    position: static;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
   .navbar a {
-    display: block;
-    margin: 0.5rem 0;
-    text-align: center;
+    margin: 0 10px;
+    font-size: 0.95rem;
   }
 
   #scrollToTopBtn {
