@@ -12,19 +12,42 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-nav a {
-  margin-left: 1.5rem;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
 .hero {
-  text-align: center;
-  padding: 5rem 2rem;
-  background: #fff;
-}
+      background-image: url('A_website_homepage_for_Micfy_Studio_LLP_features_a.png'); /* Replace with your image path if different */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
 
 ul {
   list-style: square inside;
