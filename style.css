@@ -213,7 +213,7 @@ footer {
   box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .hero h1 {
     font-size: 1.7rem;
   }
