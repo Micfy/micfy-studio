@@ -54,6 +54,7 @@ header {
 }
 
 .navbar {
+  background: #093760;
   width: 100%;
   display: flex;
   justify-content: right;
