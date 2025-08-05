@@ -1,3 +1,32 @@
+/* Scroll to top button style */
+    #scrollToTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 30px;
+      width: 50px;
+      height: 50px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 24px;
+      cursor: pointer;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      transition: opacity 0.3s ease;
+    }
+
+    #scrollToTopBtn:hover {
+      background-color: #333;
+    }
+
+    /* Smooth scroll behavior */
+    html {
+      scroll-behavior: smooth;
+    }
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
