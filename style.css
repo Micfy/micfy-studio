@@ -63,3 +63,43 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+/* About Us Section */
+#about-us {
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #2e2e2e;
+  font-family: Arial, sans-serif;
+}
+
+#about-us h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+#about-us h3 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  color: #1f1f1f;
+}
+
+#about-us p {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+#about-us ul {
+  line-height: 1.8;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+#about-us ul li::marker {
+  color: #555;
+}
+
+#about-us p:last-child {
+  margin-top: 2rem;
+  font-style: italic;
+}
