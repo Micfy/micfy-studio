@@ -26,12 +26,6 @@ nav a {
   background: #fff;
 }
 
-section {
-  padding: 3rem 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
 ul {
   list-style: square inside;
 }
