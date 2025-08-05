@@ -266,3 +266,27 @@ footer {
     padding: 1rem 0;
   }
 }
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  #scrollToTopBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
