@@ -224,12 +224,13 @@ footer {
 
   .navbar {
     position: static;
+    justify-content: center;
     margin-top: 1rem;
   }
-
-  .navbar a {
-    margin: 0 10px;
-    font-size: 0.95rem;
+   .navbar a {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: center;
   }
 
   #scrollToTopBtn {
